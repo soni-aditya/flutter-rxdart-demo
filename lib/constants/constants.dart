@@ -3,4 +3,5 @@ class Constants {
 
   static String popularMoviesUrl =
       "http://api.themoviedb.org/3/movie/popular?api_key=$API_KEY";
+  static int SUCCESS_STATUS_CODE = 200;
 }
