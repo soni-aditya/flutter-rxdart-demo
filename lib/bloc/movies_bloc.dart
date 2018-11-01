@@ -22,5 +22,3 @@ class MoviesBloc {
     _moviesFetcher.close();
   }
 }
-
-final bloc = MoviesBloc();

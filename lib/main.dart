@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_rxdart_app/movie_list.dart';
 
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -11,12 +11,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Movie List'),
-        ),
-        body: Text('Some Movie List'),
-      ),
+      home: MovieList(),
     );
   }
 }

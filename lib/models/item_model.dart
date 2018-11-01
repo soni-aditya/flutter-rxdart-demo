@@ -58,31 +58,31 @@ class _Result {
     _releaseDate = result['release_date'];
   }
 
-  String get release_date => _releaseDate;
+  String get releaseDate => _releaseDate;
 
   String get overview => _overview;
 
   bool get adult => _adult;
 
-  String get backdrop_path => _backdropPath;
+  String get backdropPath => _backdropPath;
 
-  List<int> get genre_ids => _genreIds;
+  List<int> get genreIds => _genreIds;
 
-  String get original_title => _originalTitle;
+  String get originalTitle => _originalTitle;
 
-  String get original_language => _originalLanguage;
+  String get originalLanguage => _originalLanguage;
 
-  String get poster_path => _posterPath;
+  String get posterPath => _posterPath;
 
   double get popularity => _popularity;
 
   String get title => _title;
 
-  double get vote_average => _voteAverage;
+  double get voteAverage => _voteAverage;
 
   bool get video => _video;
 
   int get id => _id;
 
-  int get vote_count => _voteCount;
+  int get voteCount => _voteCount;
 }
