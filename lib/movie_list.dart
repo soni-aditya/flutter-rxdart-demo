@@ -18,7 +18,10 @@ class MovieList extends StatelessWidget {
         builder: (context, AsyncSnapshot<ItemModel> snapshot) {
           if (snapshot.hasData) {
             return _buildList(snapshot);
+          } else if (snapshot.hasError) {
+            return Text(snapshot.error.toString());
           }
+          return Center(child: CircularProgressIndicator());
         },
       ),
     );
