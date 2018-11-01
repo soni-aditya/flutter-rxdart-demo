@@ -9,6 +9,7 @@
     <list default="true" id="1c3cf874-9de2-462a-b7af-a0c238600abb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/constants.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -34,11 +35,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movieApiProvider.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="constants.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/constants/constants.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movieApiProvider.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/resources/movieApiProvider.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="336">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="repository.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/resources/repository.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -60,9 +79,10 @@
       <list>
         <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/lib/constants/constants.dart" />
         <option value="$PROJECT_DIR$/lib/models/item_model.dart" />
+        <option value="$PROJECT_DIR$/lib/constants/constants.dart" />
         <option value="$PROJECT_DIR$/lib/resources/movieApiProvider.dart" />
+        <option value="$PROJECT_DIR$/lib/resources/repository.dart" />
       </list>
     </option>
   </component>
@@ -88,6 +108,18 @@
               <item name="flutter_rxdart_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_rxdart_app" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_rxdart_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_rxdart_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_rxdart_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_rxdart_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter_rxdart_app" type="b2602c69:ProjectViewProjectNode" />
@@ -202,7 +234,7 @@
       <window_info id="Captures" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" />
@@ -229,13 +261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/constants/constants.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="59" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/models/item_model.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -250,10 +275,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/constants/constants.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/resources/movieApiProvider.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="336">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/resources/repository.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
